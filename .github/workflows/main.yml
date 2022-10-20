@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: IMAGE_ANALYSER-20_10_2022
 
 # Controls when the workflow will run
 on:
@@ -58,7 +58,7 @@ jobs:
       - name: Deploy vnet
         run: |
           az group create --name 'G-RG-IMAGE_ANALYSER' --location 'west europe'
-          az deployment group create --resource-group 'G-RG-IMAGE_ANALYSER' --template-file vnet.bicep
+          az deployment group create --resource-group 'G-RG-IMAGE_ANALYSER' --template-file main.bicep
 
 
 
