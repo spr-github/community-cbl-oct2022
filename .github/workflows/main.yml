@@ -57,8 +57,8 @@ jobs:
             
       - name: Deploy vnet
         run: |
-          az group create --name 'G-RG-VNET' --location 'west europe'
-          az deployment group create --resource-group 'G-RG-VNET' --template-file vnet.bicep
+          az group create --name 'G-RG-IMAGE_ANALYSER' --location 'west europe'
+          az deployment group create --resource-group 'G-RG-IMAGE_ANALYSER' --template-file vnet.bicep
 
 
 
