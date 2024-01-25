@@ -10,7 +10,7 @@
     "@azure/cognitiveservices-computervision": "^8.2.0",
     "@azure/ms-rest-js": "^2.6.2",
     "@azure/storage-blob": "^12.11.0",
-    "jimp": "^0.16.2"
+    "jimp": "^0.22.10"
   },
   "devDependencies": {
     "azure-functions-core-tools": "^4.x"
