@@ -1,4 +1,4 @@
-const Jimp = require('jimp');
+const Jimp = require("jimp");
 
 // Resizes an image to 800px width
 module.exports = async function (context, originalImage) {

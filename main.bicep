@@ -36,6 +36,7 @@ resource cognitiveService 'Microsoft.CognitiveServices/accounts@2021-10-01' = {
   }
   kind: 'ComputerVision'
   properties: {
+  //  restore:true
     apiProperties: {
       statisticsEnabled: false
     }
